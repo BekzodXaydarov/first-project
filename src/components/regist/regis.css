@@ -1,0 +1,45 @@
+.regis_card {
+    width: 460px;
+    height: 431px;
+    border-radius: 20px;
+    border: 1px;
+    text-align: center;
+    background: linear-gradient(0deg, #252525, #252525),
+        linear-gradient(0deg, #616161, #616161);
+    border: 1px solid #616161
+}
+
+.regis_card h2 {
+    width: 359px;
+    height: 76px;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.regis_card form input {
+    width: 340px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px;
+    border: 1px solid #616161;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: linear-gradient(0deg, #3E3E3E, #3E3E3E),
+        linear-gradient(0deg, #616161, #616161);
+}
+
+.regis_card form input::placeholder {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}

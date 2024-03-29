@@ -1,0 +1,22 @@
+.phone_number {
+    width: 323.5px;
+    height: 144.5px;
+}
+
+.phone_number p {
+    width: 173px;
+    height: 38px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    top: 150px;
+    color: #FFFFFF;
+}
+
+.phone_number .img {
+    /* margin-left: 90px; */
+}

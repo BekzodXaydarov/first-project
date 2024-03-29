@@ -1,0 +1,53 @@
+.btn1 {
+    width: 340px;
+    height: 70px;
+    background: linear-gradient(180deg, #FF8E54 0%, #FE7027 100%),
+        radial-gradient(66.01% 56.87% at 50.05% 0%, #FFAF86 0%, rgba(244, 223, 198, 0) 100%);
+    box-shadow: 0px 4px 0px 0px #802D03;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background: linear-gradient(180deg, #FF8E54 0%, #FE7027 100%),
+        radial-gradient(66.01% 56.87% at 50.05% 0%, #FFAF86 0%, rgba(244, 223, 198, 0) 100%);
+    box-shadow: 0px 4px 0px 0px #802D03;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:400px) {
+    .btn1 {
+        width: 220px !important;
+        height: 60px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, #FF8E54 0%, #FE7027 100%),
+            radial-gradient(66.01% 56.87% at 50.05% 0%, #FFAF86 0%, rgba(244, 223, 198, 0) 100%);
+        box-shadow: 0px 4px 0px 0px #802D03;
+
+    }
+
+    .btn2 {
+        width: 300px !important;
+        height: 60px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, #FF8E54 0%, #FE7027 100%),
+            radial-gradient(66.01% 56.87% at 50.05% 0%, #FFAF86 0%, rgba(244, 223, 198, 0) 100%);
+        box-shadow: 0px 4px 0px 0px #802D03;
+        margin-top: 15px;
+
+    }
+}

@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.video {
+  width: 340px;
+  height: 270px;
+  object-fit: contain;
+}
